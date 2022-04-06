@@ -54,18 +54,19 @@ namespace Identifikacija__Identify_App_
         {
             //this.Size = new Size(1016, 704);
             this.Size = new Size(815, 575);
-            MessageBox.Show("PictureBox size = " + pictureBox1.Size); // => 1) 1000, 641 2) 799, 512
+
+            //MessageBox.Show("PictureBox size = " + pictureBox1.Size); // => 1) 1000, 641 2) 799, 512
 
             b = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             pictureBox1.Image = b;
             g = Graphics.FromImage(pictureBox1.Image);
             g.Clear(Color.Black);
 
-            MessageBox.Show("PictureBox image size = " + pictureBox1.Image.Size); // => 1) 1000, 641 2) 799, 512
+            //MessageBox.Show("PictureBox image size = " + pictureBox1.Image.Size); // => 1) 1000, 641 2) 799, 512
 
             sablon = new Bitmap("idKarta.jpg");
 
-            MessageBox.Show("idKarta.jpg size = " + sablon.Size); // => 1) 1000, 641 2) 799, 512
+            MessageBox.Show("idKarta.jpg size = " + sablon.Size); // => 1) 1000, 641 2) 1000, 641
 
             g.DrawImage(sablon, 0, 0);
             g.DrawString(odRad.ImePrezime + "\n(" + odRad.Sifra + ")", new Font("Consolas", 26, FontStyle.Bold), Brushes.White, 55, 300);
