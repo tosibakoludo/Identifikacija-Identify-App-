@@ -16,7 +16,7 @@ namespace Identifikacija__Identify_App_
     {
         Graphics g;
         Bitmap b;
-        SQLiteConnection con = new SQLiteConnection("Data source=" + Directory.GetCurrentDirectory() + @"\database.sqlite");
+        SQLiteConnection con = new SQLiteConnection("Data source=" + Directory.GetCurrentDirectory() + @"\..\..\database.sqlite");
         List<Radnik> L = new List<Radnik>();
         public Form1()
         {

@@ -59,7 +59,7 @@ namespace Identifikacija__Identify_App_
             g = Graphics.FromImage(pictureBox1.Image);
             g.Clear(Color.Black);
 
-            sablon = new Bitmap("idKarta.jpg");
+            sablon = new Bitmap("../../sabloni/idKarta.jpg");
 
             g.DrawImage(sablon, 0, 0);
             g.DrawString(odRad.ImePrezime + "\n(" + odRad.Sifra + ")", new Font("Consolas", 26, FontStyle.Bold), Brushes.White, 55, 300);

@@ -59,7 +59,7 @@ namespace Identifikacija__Identify_App_
             g = Graphics.FromImage(pictureBox1.Image);
             g.Clear(Color.Black);
 
-            sablon = new Bitmap("taki_company.jpg");
+            sablon = new Bitmap("../../sabloni/taki_company.jpg");
 
             string sifra;
             if (odRad.Sifra < 10)

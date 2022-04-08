@@ -64,7 +64,7 @@ namespace Identifikacija__Identify_App_
 
             //MessageBox.Show("PictureBox image size = " + pictureBox1.Image.Size); // => 1) 1000, 641 2) 799, 512
 
-            sablon = new Bitmap("idKarta.jpg");
+            sablon = new Bitmap("../../sabloni/idKarta.jpg");
 
             //MessageBox.Show("idKarta.jpg size = " + sablon.Size); // => 1) 1000, 641 2) 1000, 641
 
