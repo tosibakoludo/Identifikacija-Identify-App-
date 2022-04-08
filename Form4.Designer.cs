@@ -40,11 +40,12 @@ namespace Identifikacija__Identify_App_
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.akcijaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -54,14 +55,14 @@ namespace Identifikacija__Identify_App_
             this.odaberiFotografijuToolStripMenuItem,
             this.sačuvajKaoToolStripMenuItem});
             this.akcijaToolStripMenuItem.Name = "akcijaToolStripMenuItem";
-            this.akcijaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.akcijaToolStripMenuItem.Size = new System.Drawing.Size(63, 26);
             this.akcijaToolStripMenuItem.Text = "Akcija";
             // 
             // odaberiFotografijuToolStripMenuItem
             // 
             this.odaberiFotografijuToolStripMenuItem.Name = "odaberiFotografijuToolStripMenuItem";
             this.odaberiFotografijuToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.O)));
-            this.odaberiFotografijuToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.odaberiFotografijuToolStripMenuItem.Size = new System.Drawing.Size(283, 26);
             this.odaberiFotografijuToolStripMenuItem.Text = "Odaberi fotografiju ...";
             this.odaberiFotografijuToolStripMenuItem.Click += new System.EventHandler(this.odaberiFotografijuToolStripMenuItem_Click);
             // 
@@ -69,28 +70,30 @@ namespace Identifikacija__Identify_App_
             // 
             this.sačuvajKaoToolStripMenuItem.Name = "sačuvajKaoToolStripMenuItem";
             this.sačuvajKaoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.sačuvajKaoToolStripMenuItem.Size = new System.Drawing.Size(226, 22);
+            this.sačuvajKaoToolStripMenuItem.Size = new System.Drawing.Size(283, 26);
             this.sačuvajKaoToolStripMenuItem.Text = "Sačuvaj kao ...";
             this.sačuvajKaoToolStripMenuItem.Click += new System.EventHandler(this.sačuvajKaoToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(800, 426);
+            this.pictureBox1.Size = new System.Drawing.Size(1067, 524);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form4";

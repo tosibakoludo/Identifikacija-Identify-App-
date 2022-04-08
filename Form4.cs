@@ -66,7 +66,7 @@ namespace Identifikacija__Identify_App_
 
             sablon = new Bitmap("idKarta.jpg");
 
-            MessageBox.Show("idKarta.jpg size = " + sablon.Size); // => 1) 1000, 641 2) 1000, 641
+            //MessageBox.Show("idKarta.jpg size = " + sablon.Size); // => 1) 1000, 641 2) 1000, 641
 
             g.DrawImage(sablon, 0, 0);
             g.DrawString(odRad.ImePrezime + "\n(" + odRad.Sifra + ")", new Font("Consolas", 26, FontStyle.Bold), Brushes.White, 55, 300);
