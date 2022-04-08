@@ -16,7 +16,7 @@ namespace Identifikacija__Identify_App_
     {
         Graphics g;
         Bitmap b;
-        SQLiteConnection con = new SQLiteConnection("Data source=" + Directory.GetCurrentDirectory() + @"\database.sqlite");
+        SQLiteConnection con;
         List<Radnik> L = new List<Radnik>();
         public Form1()
         {
@@ -34,6 +34,8 @@ namespace Identifikacija__Identify_App_
 
             try
             {
+                con = new SQLiteConnection("Data source=" + Directory.GetCurrentDirectory() + @"\database.sqlite");
+
                 con.Open();
 
                 string tk = "select * from Salaries order by Id";
