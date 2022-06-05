@@ -58,7 +58,7 @@ namespace Identifikacija__Identify_App_
             }
             catch (DllNotFoundException x)
             {
-                MessageBox.Show("GREŠKA/ERROR: " + x.Message + "\n=> Probajte da rebildujete program i ponovo ga pokrenete.\n=>Try rebuilding solution and startingt it again.");
+                MessageBox.Show("GREŠKA/ERROR: " + x.Message + "\n=> Probajte da rebildujete program i ponovo ga pokrenete.\n=>Try rebuilding solution and starting it again.");
                 this.Close();
             }
             catch (InvalidCastException)
